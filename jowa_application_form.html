@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Finding true love">
+        <meta name="author" content="Nicca Laodenio">
+        <meta name="viewport" content="width=device-width, initial-scale=5.0">
+        <link rel="stylesheet" href="stylesheet.css"> 
+        <title>Jowa Application (online form)</title>
+        
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <main class="ncx">
+      <article id="Jaf">
+        <h3>JOWA APPLICATION FORM 2021</h3>
+        <form method="GET" action="">
+            <section class="basicInfoSection">
+              <fieldset class="fsData" id="Fs_basic_Info">
+                    <legend class="dataLegend"><b>Basic Information</b></legend>
+                        <section class="InfoSection basic_info">  
+                            <label class="lblBasicInfo" for="lName" >Last Name</label><input type="text" name="LName" id="lName" required><br>
+                            <label class="lblBasicInfo" for="fName">First Name</label><input type="text" name="FName" id="fName" required><br>
+                            <label class="lblBasicInfo" for="mi">Middle Initial</label><input type="text" name="Mi" id="mi" required><br>
+                            <label class="lblBasicInfo" for="beerday">Date of Birth</label><input type="date" name="bday" id="beerday" required><br>
+                            <label class="lblBasicInfo" for="ctznshp">Citizenship</label><input type="text" name="ctznshp" id="ctznshp"><br>
+                            <label class="lblBasicInfo" for="address">Address</label><input type="text" name="address" id="address" required><br>
+                            <label class="lblBasicInfo" for="age">Age</label><input type="number" name="Age" id="age" required><br>
+                            <label class="lblBasicInfo" for="btype">  Blood Type</label><input type="text" name="btype" id="bType" required><br>
+                            <label class="lblBasicInfo" for="height">Height</label><input type="text" name="height" id="height"required><br>
+                            <label class="lblBasicInfo" for="occupation">Occupation</label><input type="text" name="occupation" id="occupation"required><br>
+                        </section>     
+              </fieldset>
+            </section>
+            <section>
+                <fieldset class="fsData" id="Fs_prsnl_quest">
+                    <legend class="dataLegend"><b>Personal Questions</b></legend>
+                        <section class="InfoSection prsnl_quest">
+                            <label for="single"> Are you single? <br>
+                                <input type="radio" name="single?" id="yes"><label for="yes">Yes</label><br>
+                                <input type="radio" name="single?" id="no"> <label for="no">No</label><br>
+                                <input type="radio" name="single?" id="maybe"> <label for="maybe">Maybe</label>
+                            </label><br><br>
+                            <label for="">Are you still virgin?</label><br>
+                                <input type="radio" name="virgin?" id="yes"><label for="">Yes</label><br>
+                                <input type="radio" name="virgin?" id="no"> <label for="">No</label><br>
+                                <input type="radio" name="virgin?" id="maybe"> <label for="">Maybe</label><br><br>
+                            <label for="">Do you have kids?</label><br>
+                                <input type="radio" name="kids?" id="yes"><label for="">Yes</label><br>
+                                <input type="radio" name="kids?" id="no"> <label for="">No</label><br>
+                                <input type="radio" name="kids?" id="maybe"> <label for="">Maybe</label><br><br>
+                            <label for="">Do you smoke and Drink alcoholic beverages?</label><br>
+                            <input type="radio" name="drink&smoke?" id="yes"><label for="">Yes, I drink occationally but I don't smoke</label><br>
+                            <input type="radio" name="drink&smoke?" id="Yes"><label for="">Both Yes<br>
+                            <input type="radio" name="drink&smoke?" id="no"> <label for="">Both No</label><br><br>
+                            <label for="">
+                                How long will you stay?
+                             <section id="dropdown">   
+                                <select name="will stay?" id="stay" >
+                                    <option value="">Maybe:</option>
+                                    <option value="months">Months</option>
+                                    <option value="days">Days</option>
+                                    <option value="years">Years</option>
+                                    <option value="lifetime">Lifetime</option>
+                                    <option value="never">Never</option>
+                                    <option value="waporeber">Waray Poreber!</option>
+                                </select>
+                            </section>   
+                                </label>
+                            <br><br>
+                            <label for="">Relationship Background: <em>give at least 3 </em> </label><br>
+                            <label for="">Ex #1 Full Name:</label><input type="text" name="x1_name" class="txtRelBackground" id=""><br>
+                            <label for="">Ex #2 Full Name:</label><input type="text" name="x2_name" class="txtRelBackground" id=""><br>
+                            <label for="">Ex #3 Full Name:</label><input type="text" name="x3_name" class="txtRelBackground" id="">
+                            <br><br>
+                            <label for="">Why should I chose you?</label><br>
+                            <textarea name="why?" id="txtWaeyo" cols="33" rows="5" placeholder="Enter your rationale"></textarea><br><br>
+                            <label for="">Upload your Medical Certificate and Police Clearance</label> <br><input type="file" name="certificate" id="">
+                        </section>
+                </fieldset>
+            </section>
+            <fieldset class="fsData" id="Fs_FamBackGround">
+                <legend class="dataLegend"><b>Family Background</b></legend>
+                <section class="InfoSection FamBG">
+                    <label for="">Enter your <b><em>Father's</em></b>:</label><br>
+                        <section class="Father">
+                            <label for="FlName" >Last Name </label><input type="text" class="txtFatherMotherDetails" name="FLName" id="FlName" required><br>
+                            <label for="fFName">First Name </label><input type="text" class="txtFatherMotherDetails" name="FFName" id="FfName" required><br>
+                            <label for="Fmi">Middle  Name</label><input type="text" class="txtFatherMotherDetails" name="FMi" id="Fmi" required><br>
+                            <label for="occupation">Occupation</label><input type="text" class="txtFatherMotherDetails" name="occupation" id="occupation"required><br>
+                        </section> 
+                            <label for="">Enter your <b><em>Mother's</em> </b>:</label><br>
+                        <section class="mother"> 
+                            <label for="MName" >Maiden Name </label><input type="text" class="txtFatherMotherDetails" name="MMName" id="MMName" required><br>
+                            <label for="MfName">First Name </label><input type="text" class="txtFatherMotherDetails" name="MFName" id="MfName" required><br>
+                            <label for="Fmi">Middle Name</label><input type="text" class="txtFatherMotherDetails" name="MMi" id="Mmi" required><br>
+                            <label for="occupation">Occupation</label><input type="text" class="txtFatherMotherDetails" name="occupation" id="occupation"required><br>
+                        </section> 
+                </section>    
+            </fieldset>
+            <span>
+                <input type="submit" id="btnSubmit" value="Submit">
+            </span>
+        </form>
+    </article>
+</main>
+</body>
+</html>

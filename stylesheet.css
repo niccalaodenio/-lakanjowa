@@ -73,7 +73,7 @@ form{
 .prsnl_quest {
     width: 100%;
     column-count: 2;
-   font-family: 'Dongle', sans-serif;
+   font-family: 'Raleway', sans-serif;
 }
 
 #Fs_basic_Info,
@@ -81,6 +81,7 @@ form{
 #Fs_FamBackGround {
     margin: 10px;
     border-radius: 10px;
+    font-size: 15px;
 }
 textarea {
    resize: none;

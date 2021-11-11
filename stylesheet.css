@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -74,7 +74,7 @@ form{
 .prsnl_quest {
     width: 100%;
     column-count: 2;
-   font-family: 'Dongle', sans-serif;
+   font-family: Dongle;
 }
 
 #Fs_basic_Info,
